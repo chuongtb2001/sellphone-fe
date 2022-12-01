@@ -1,3 +1,6 @@
+## 🔗 Links wireframe
+[![figma](https://i.ibb.co/prFFq2r/rsz-162c6bc0beee9410fe137d91e.png)](https://www.figma.com/file/Igj5qK9lB4DFIOG2f6BTc6/Wireframe---SP?node-id=34%3A86&t=lKihd15FD0k8N3RE-1)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
