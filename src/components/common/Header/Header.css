@@ -1,0 +1,118 @@
+.header {
+  height: 80px;
+  background-color: #487ba6;
+  position: sticky;
+  top: 0px;
+}
+.header .header-container {
+  color: #fff;
+  padding: 0 15px;
+  height: 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .group-header,
+.header .group-footer,
+.user-menu {
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  font-size: 24px;
+}
+.header .nav-link {
+  margin-left: 42px;
+  font-size: 20px;
+}
+
+.header span {
+  margin: 0 8px;
+}
+.header span:hover,
+.header svg:hover {
+  cursor: pointer;
+}
+.header .btn-login-register {
+  font-size: 20px;
+}
+.header .user-menu > * {
+  margin-left: 18px;
+}
+.header .user-menu svg {
+  font-size: 36px;
+}
+.header .user-menu svg:first-child {
+  margin: 0;
+}
+.header .icon-menu-md {
+  display: none;
+  font-size: 32px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 4px;
+}
+.header .icon-menu-md:hover {
+  background-color: #fff;
+  border: 1px solid #487ba6;
+  color: #487ba6;
+  transition: all 0.2s;
+}
+.header ul.menu-md {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .header .header-container .nav-link {
+    display: none;
+  }
+  .header .header-container .user-menu,
+  .header .header-container .btn-login-register {
+    display: none;
+  }
+  .header .icon-menu-md {
+    display: block;
+  }
+
+  .header ul.menu-md {
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+  }
+  .header ul.menu-md li {
+    padding: 12px 0px;
+    transition: font-size 0.2s;
+  }
+  .header ul.menu-md li:hover {
+    background-color: #fff;
+    color: #487ba6;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .header ul.menu-md li.active {
+    background-color: #fff;
+    color: #487ba6;
+    font-weight: 500;
+  }
+  .header ul.menu-md {
+    display: block;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 100vw;
+    max-height: 0px;
+    overflow: hidden;
+    background-color: #487ba6;
+    color: #fff;
+    transition: all 0.5s;
+  }
+  .header ul.menu-md.active {
+    max-height: 300px;
+  }
+}
