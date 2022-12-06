@@ -22,3 +22,6 @@ code {
   flex-direction: column;
   justify-content: space-between;
 }
+#root main {
+  flex: 1 0 100%;
+}
