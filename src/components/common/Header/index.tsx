@@ -3,6 +3,7 @@ import { AiOutlineShoppingCart, AiOutlineMenu } from "react-icons/ai";
 import { MdLocalShipping, MdNavigation } from "react-icons/md";
 import { AuthContext } from "../../../auth/Provider";
 import SearchBar from "../SearchBar";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 export default function Header({ tab }: { tab?: string }) {
@@ -14,7 +15,13 @@ export default function Header({ tab }: { tab?: string }) {
         <div className="group-header">
           <h1 className="logo">LOGO</h1>
           <div className="nav-link">
-            <span>Home</span>/<span>Product</span>
+            <span>
+              <Link to="/home">Home</Link>
+            </span>
+            /
+            <span>
+              <Link to="/product">Product</Link>
+            </span>
           </div>
         </div>
         <div className="group-footer">
