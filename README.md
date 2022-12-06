@@ -3,6 +3,7 @@
 [![figma](https://i.ibb.co/prFFq2r/rsz-162c6bc0beee9410fe137d91e.png)](https://www.figma.com/file/Igj5qK9lB4DFIOG2f6BTc6/Wireframe---SP?node-id=34%3A86&t=lKihd15FD0k8N3RE-1)
 
 # Login - Register
+<<<<<<< HEAD
 
 ![Login - Register](./public/wireframe/login-register.png)
 
@@ -32,6 +33,22 @@
 
 # Order History Page
 
+=======
+![Login - Register](./public/wireframe/login-register.png)
+# Home Page
+![Home Page](./public/wireframe/home.png)
+# Products Page
+![Products Page](./public/wireframe/list.png)
+# Filter
+![Filter](./public/wireframe/filter.png)
+# Detail Page
+![Detail Page](./public/wireframe/detail.png)
+# Cart Page
+![Cart Page](./public/wireframe/cart.png)
+# Checkout Page
+![Checkout Page](./public/wireframe/checkout.png)
+# Order History Page
+>>>>>>> 547f178518e432528f611e2b29343c689cacb4d1
 ![Order History Page](./public/wireframe/order-history.png)
 
 # Getting Started with Create React App
