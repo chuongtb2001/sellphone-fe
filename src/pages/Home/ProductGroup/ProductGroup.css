@@ -1,0 +1,97 @@
+.product-group {
+  max-width: 1440px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.product-group .product-group-heading {
+  overflow: hidden;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fff;
+}
+.product-group .product-group-heading .tag-name {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 0 24px;
+  background: #487ba6;
+  color: #fff;
+  font-weight: 500;
+  height: 100%;
+}
+.product-group .product-group-heading .tag-name::after {
+  content: "";
+  position: absolute;
+  right: -24px;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(45deg, #00000000 50%, #487ba6 50%);
+  transform: rotate(45deg);
+}
+.product-group .product-group-heading .view-more:hover {
+  cursor: pointer;
+  color: #487ba6;
+}
+.product-group .product-group-heading .view-more {
+  margin-right: 8px;
+  font-weight: 500;
+  color: #757575;
+  transition: all 0.2s;
+}
+.product-card-group {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+.product-card-group svg.swiper-btn-previous,
+.product-card-group svg.swiper-btn-next {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 48px;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #487ba6;
+  padding: 8px;
+  transition: all 0.2s;
+}
+.product-card-group:hover svg.swiper-btn-previous {
+  cursor: pointer;
+  visibility: visible;
+  left: 0;
+}
+.product-card-group:hover svg.swiper-btn-next {
+  cursor: pointer;
+  visibility: visible;
+  right: 0;
+}
+.product-card-group svg.swiper-btn-previous {
+  left: -100%;
+}
+.product-card-group svg.swiper-btn-next {
+  right: -100%;
+}
+.product-card-item-container {
+  flex: 1 0 calc(100% / 5);
+  padding-left: 5px;
+  padding-right: 10px;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .product-card-item-container {
+    flex: 1 0 calc(100% / 4);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .product-card-item-container {
+    flex: 1 0 50%;
+  }
+}

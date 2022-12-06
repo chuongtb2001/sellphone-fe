@@ -19,15 +19,19 @@
 }
 .search-bar svg {
   border-radius: 0 8px 8px 0;
-  padding: 12px;
+  padding: 8px;
 }
 .search-bar .search-bar-icon {
   background-color: #0747a3;
   position: absolute;
+  height: 100%;
+  width: 40px;
   right: 0px;
 }
 .search-bar .search-bar-icon-md {
   background-color: #0747a3;
+  height: 100%;
+  width: 40px;
   display: none;
 }
 .search-bar .header-overlay {
@@ -37,7 +41,7 @@
   top: 0px;
   left: 0px;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   background-color: #00000085;
 }
 .search-bar .header-overlay.active {
@@ -51,6 +55,7 @@
   }
   .search-bar input {
     box-sizing: border-box;
+    border-radius: 0;
     width: 100vw;
     max-width: none;
   }
@@ -59,14 +64,21 @@
     z-index: 2;
     width: 0;
     max-height: 0;
-    transform: translate(0px, 0px);
+    top: 0;
+    left: 0;
     overflow: hidden;
-    transition: all 0.2s;
+    transition: width 0.2s;
   }
   .search-bar .search-bar-contain.active {
     display: flex;
     width: 100vw;
+    top: 80px;
     max-height: none;
-    transform: translate(calc(-100vw + 77px), 50px);
+  }
+  .search-bar .search-bar-icon {
+    background-color: #fff;
+    color: #000;
+    border-left: 1px solid #000;
+    right: 15px;
   }
 }

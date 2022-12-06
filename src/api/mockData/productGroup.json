@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "productName": "Iphone 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 5
+  },
+  {
+    "id": 2,
+    "productName": "Redmi note 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_2_18.png",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 4.5
+  },
+  {
+    "id": 3,
+    "productName": "Iphone 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 4
+  },
+  {
+    "id": 4,
+    "productName": "Redmi note 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_2_18.png",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 3.5
+  },
+  {
+    "id": 5,
+    "productName": "Iphone 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 3
+  },
+  {
+    "id": 6,
+    "productName": "Redmi note 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_2_18.png",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 2.5
+  },
+  {
+    "id": 7,
+    "productName": "Iphone 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 2
+  },
+  {
+    "id": 8,
+    "productName": "Redmi note 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_2_18.png",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 1.5
+  },
+  {
+    "id": 9,
+    "productName": "Redmi note 11",
+    "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_2_18.png",
+    "productPrice": 1000,
+    "productPercentSale": 10,
+    "productRating": 1
+  }
+]

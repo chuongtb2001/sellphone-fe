@@ -1,0 +1,90 @@
+.card-group {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  overflow: hidden;
+}
+.card-group .card-item {
+  z-index: -1;
+  flex-basis: calc(95% / 4);
+  text-align: center;
+  color: #fff;
+  padding: 12px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-group .card-item svg {
+  font-size: 80px;
+}
+.card-group .card-item p {
+  margin: 0;
+}
+.card-group .card-item.free-shipping {
+  background-color: #fa5353;
+}
+.card-group .card-item.member-discount {
+  background-color: #f9bb5e;
+}
+.card-group .card-item.hot-deal {
+  background-color: #65d37e;
+}
+.card-group .card-item.online-support {
+  background-color: #41c5fe;
+}
+.card-group .card-item:last-child {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-group {
+    flex-wrap: wrap;
+  }
+  .card-group .card-item {
+    flex-basis: calc(95% / 2);
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-group {
+    flex-wrap: nowrap;
+    padding: 0 15px;
+  }
+  .card-group .card-item {
+    margin-right: 15px;
+    flex: 1 0 100%;
+    animation: slideCardGroup 16s infinite;
+  }
+  .card-group .card-item:last-child {
+    display: block;
+  }
+
+  @keyframes slideCardGroup {
+    0%,
+    11.25% {
+      transform: translateX(0);
+    }
+    13.75%,
+    36.25% {
+      transform: translateX(calc(-100% - 15px));
+    }
+    38.75%,
+    61.25% {
+      transform: translateX(calc(-200% - 30px));
+    }
+
+    63.75%,
+    86.25% {
+      transform: translateX(calc(-300% - 45px));
+    }
+    88.75%,
+    100% {
+      transform: translateX(calc(-400% - 60px));
+    }
+  }
+}

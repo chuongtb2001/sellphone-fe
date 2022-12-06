@@ -6,6 +6,7 @@ export default function RouteMap() {
   return (
     <Routes>
       <Route path="/home" element={<Home />} />
+      {/* <Route path="/component" element={<ProductCard isSale={true} />} /> */}
     </Routes>
   );
 }

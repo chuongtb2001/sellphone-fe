@@ -5,7 +5,7 @@ type ACTIONTYPE =
   | { type: "LOGOUT"; payload: string };
 
 const initialState = {
-  isAuthenticated: false,
+  isAuthenticated: true,
   username: "Nastu",
   token: "",
 };

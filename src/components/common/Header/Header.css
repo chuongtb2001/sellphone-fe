@@ -3,6 +3,7 @@
   background-color: #487ba6;
   position: sticky;
   top: 0px;
+  z-index: 1000;
 }
 .header .header-container {
   color: #fff;
