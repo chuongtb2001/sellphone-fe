@@ -17,7 +17,6 @@ export default function Home() {
   return (
     <>
       <MainLayout>
-        <Header tab="home" />
         <Banner />
         <CardGroup />
         <ProductGroup tagName="Sale" data={dataGroupSale} />
