@@ -12,7 +12,7 @@ export default function Home() {
     null
   );
   useEffect(() => {
-    setTimeout(() => setDataGroupSale(myJson), 3000);
+    setDataGroupSale(myJson);
   }, []);
   return (
     <>

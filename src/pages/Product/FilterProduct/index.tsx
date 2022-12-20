@@ -12,7 +12,7 @@ export default function FilterProduct() {
             className="btn-filter-opt"
             onClick={() => setNeedFilter(true)}
           >
-            <span>Filter</span> <FaFilter />
+            <span>Filters</span> <FaFilter />
           </button>
           <select className="select-sort-opt">
             <option>Sort by: Default</option>

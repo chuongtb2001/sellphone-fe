@@ -15,10 +15,8 @@
 
 .filter-product .btn-filter-opt,
 .filter-product .select-sort-opt {
-  padding: 2px 8px;
+  padding: 6px 12px;
   border: none;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .filter-product .btn-filter-opt:hover,
 .filter-product .select-sort-opt:hover {
@@ -26,10 +24,12 @@
 }
 .filter-product .select-sort-opt {
   text-align: left;
-  border-radius: 48px;
+  border-radius: 4px;
+}
+.filter-product .select-sort-opt:focus-visible {
+  outline: none;
 }
 .filter-product .btn-filter-opt > * {
-  font-size: 18px;
   margin: 0 2px;
 }
 .filter-product .btn-filter-opt {
@@ -66,20 +66,23 @@
   width: calc((100% - 100px) / 2);
   padding: 4px 8px;
   margin-right: 4px;
-  border-radius: 48px;
+  border-radius: 4px;
   border: 1px solid rgb(221, 221, 221);
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .filter-product-module form select {
   width: calc(100% - 100px);
   border: none;
   padding: 4px;
-  border-radius: 48px;
+  border-radius: 4px;
   background-color: #fff;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 1px solid #c7c7c7;
 }
+
+.filter-product-module form select:focus-visible {
+  border: 1px solid #487ba6;
+  outline: none;
+}
+
 .filter-product-module form div {
   flex-basis: 50%;
   margin: 12px 0;

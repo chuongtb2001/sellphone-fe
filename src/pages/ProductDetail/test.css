@@ -1,0 +1,7 @@
+.info {
+  display: flex;
+}
+.info .left,
+.info .right {
+  flex: 1 0 50%;
+}

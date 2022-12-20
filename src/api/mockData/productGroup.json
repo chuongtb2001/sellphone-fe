@@ -5,7 +5,15 @@
     "productImg": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_225.jpg",
     "productPrice": 1000,
     "productPercentSale": 10,
-    "productRating": 5
+    "productRating": 5,
+    "detail": [
+      { "RAM": 4, "storage": 64, "color": "#ff0000", "price": 100 },
+      { "RAM": 4, "storage": 64, "color": "#000000", "price": 100 },
+      { "RAM": 4, "storage": 64, "color": "#ffffff", "price": 100 },
+      { "RAM": 8, "storage": 128, "color": "#ff0000", "price": 200 },
+      { "RAM": 8, "storage": 128, "color": "#000000", "price": 200 },
+      { "RAM": 8, "storage": 128, "color": "#ffffff", "price": 200 }
+    ]
   },
   {
     "id": 2,

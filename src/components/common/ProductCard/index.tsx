@@ -9,10 +9,10 @@ export default function ProductCard({ data }: { data: ProductInfoCard }) {
       )}
       <img src={data.productImg} alt="" />
       <p className="product-title">{data.productName}</p>
-      <p className="product-price-sale">
+      <span className="product-price-sale">
         ${data.productPrice * (1 - data.productPercentSale / 100)}
-      </p>
-      <p className="product-price">${data.productPrice}</p>
+      </span>
+      <span className="product-price">${data.productPrice}</span>
       <p className="rate-star">
         <span>&#8902;</span> {data.productRating}/5
       </p>
